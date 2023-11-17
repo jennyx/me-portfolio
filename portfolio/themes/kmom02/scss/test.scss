@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Assistant&family=Foldit&display=swap');
+
+$old-fashioned-font: 'Allura', cursive;
+$modern-font: 'Assistant', sans-serif;
+$worst-ever: 'Foldit', sans-serif;
+$base-line-height: 1.4;
+$base-font-size: 2rem;
+
+@mixin line-height-and-font-size($font: sans-serif) {
+    line-height: $base-line-height;
+    font-size: $base-font-size;
+    font-family: $font;
+}
+
+.old-fashioned {
+    @include line-height-and-font-size;
+    font-family: $old-fashioned-font, cursive;
+}
+
+.modern {
+    @include line-height-and-font-size;
+    font-family: $modern-font;
+}
+
+.worst-ever {
+    @include line-height-and-font-size;
+    font-family: $worst-ever;
+    line-height: 0.7;
+    letter-spacing: -3px;
+}

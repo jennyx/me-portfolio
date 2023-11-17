@@ -134,6 +134,16 @@ p {
   margin-bottom: 1.4rem;
 }
 
+html {
+  font-size: 100%;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
