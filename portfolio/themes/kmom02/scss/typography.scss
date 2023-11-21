@@ -18,12 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
 }
 
-img {
-    max-width: 100%;
-}
-
 p {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.3rem;
     font-family: $main-font;
 }
 
@@ -35,4 +31,27 @@ html {
     html {
         font-size: 112.5%;
     }
+}
+
+.old-fashioned {
+    line-height: 1.4;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-family: "Allura", cursive, cursive;
+}
+
+.modern {
+    line-height: 1.4;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-family: "Assistant", sans-serif;
+}
+
+.worst-ever {
+    line-height: 1.4;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-family: "Foldit", sans-serif;
+    line-height: 0.7;
+    letter-spacing: -3px;
 }

@@ -26,7 +26,7 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 0 1em;
-    width: 80%;
+    width: 64em;
     margin: 0 auto;
 }
 
@@ -117,4 +117,10 @@ body {
 
 .footer .social {
     font-size: 2rem;
+}
+
+/* Image */
+
+img {
+    max-width: 100%;
 }
