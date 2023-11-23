@@ -76,12 +76,12 @@ a {
     flex-direction: row;
     justify-content: space-between; //ett element längt till höger & ett längst till vänster
     align-items: flex-start;
-}
+}/*
 @media screen and (max-width: 960px) {
     .single-technoloy {
-        display: block;  
-    }
-}
+        display: grid;
+    } 
+}*/
 
 .tech-menu {
     width: 20%;
