@@ -1,0 +1,56 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'variables-dark';
+
+@import 'typography';
+@import 'base';
+
+@import 'test';
+
+@import 'technologies';
+
+/*
+body {
+    background-color: $background-color;
+}
+
+.nav li:hover {
+    background-color: $accent-color;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav a {
+    color: $font-color;
+}
+
+.active {
+    background-color: $accent-color;
+    color: #fff;
+}
+
+.footer {
+    background-color: $accent-color;
+}
+
+.title p {
+    color: $font-color;
+}
+
+.title h1{
+    color: $font-color;
+}
+
+.box {
+    border: 1px solid $font-color;
+}
+*/

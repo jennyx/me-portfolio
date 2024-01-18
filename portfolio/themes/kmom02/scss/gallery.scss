@@ -1,0 +1,15 @@
+.gallery {
+    display: felx;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery picture {
+    width: 45%;
+}
+
+.gallery imd,
+.gallery source {
+    width: 100%;
+}

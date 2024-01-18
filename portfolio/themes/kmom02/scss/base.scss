@@ -21,6 +21,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: $background-color;
 }
 
 .main {
@@ -67,11 +68,12 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: $font-color;
 }
 
 .title p {
     font-style: italic;
+    color: $font-color
 }
 
 /* Nav */
@@ -82,7 +84,7 @@ body {
 }
 
 .nav li:hover {
-    background-color: $background-color;
+    background-color: $accent-color;
     color: #fff;
 }
 
@@ -98,7 +100,7 @@ body {
 }
 
 .active {
-    background-color: $background-color;
+    background-color: $accent-color;
     color: #fff;
 }
 
@@ -107,7 +109,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    background-color: $background-color;
+    background-color: $accent-color;
     padding: 1rem 2rem;
 }
 
@@ -117,6 +119,10 @@ body {
 
 .footer .social {
     font-size: 2rem;
+}
+
+.social {
+    text-decoration: none;
 }
 
 /* Image */
